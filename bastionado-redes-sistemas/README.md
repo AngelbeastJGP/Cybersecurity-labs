@@ -8,6 +8,7 @@ infraestructuras de red y sistemas.
 | Nº | Práctica | Estado |
 | --- | --- | --- |
 | 01 | [Construcción de una infraestructura segmentada](01-construccion-infraestructura-segmentada.md) | Completada |
+| 2.1 | [Accesos con protección mediante frase de paso](02-01-accesos-frase-paso.md) | Completada |
 
 ## Escenario base
 
@@ -32,3 +33,4 @@ evidencias/
 Para esta práctica:
 
 - [Evidencias de la infraestructura segmentada](evidencias/01-infraestructura-segmentada/)
+- [Evidencias de accesos con frase de paso](evidencias/02-01-accesos-frase-paso/)
