@@ -9,6 +9,8 @@ infraestructuras de red y sistemas.
 | --- | --- | --- |
 | 01 | [Construcción de una infraestructura segmentada](01-construccion-infraestructura-segmentada.md) | Completada |
 | 2.1 | [Accesos con protección mediante frase de paso](02-01-accesos-frase-paso.md) | Completada |
+| 2.2 | [Acceso mediante verificación de equipo cliente](02-02-verificacion-equipo-cliente.md) | Completada |
+| 2.3 | [Acceso mediante doble factor de autenticación](02-03-doble-factor-autenticacion.md) | Completada |
 
 ## Escenario base
 
@@ -34,3 +36,5 @@ Para esta práctica:
 
 - [Evidencias de la infraestructura segmentada](evidencias/01-infraestructura-segmentada/)
 - [Evidencias de accesos con frase de paso](evidencias/02-01-accesos-frase-paso/)
+- [Evidencias de verificación de equipo cliente](evidencias/02-02-verificacion-equipo-cliente/)
+- [Evidencias de doble factor de autenticación](evidencias/02-03-doble-factor-autenticacion/)
