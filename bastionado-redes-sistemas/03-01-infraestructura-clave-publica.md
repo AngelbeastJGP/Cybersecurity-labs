@@ -31,12 +31,18 @@ Garea Root CA
 | --- | --- | --- | --- |
 | CA-RAIZ | AlmaLinux 9 | Autoridad certificadora raiz | `10.0.0.30` |
 | SRV-ALMA | AlmaLinux 9 | CA subordinada y servidor Apache | `10.0.0.20` |
+| SRV-WINDOWS | Windows Server 2022 | Servidor DNS para resolver nombres y acceder a los repositorios | `10.0.0.10` |
 | PC2 | Debian 11 | Cliente que valida el servicio | `200.0.100.102` |
 | R-DEBIAN | Debian 11 | Enrutamiento entre redes | `10.0.0.1` y `200.0.100.1` |
 
 La VM `CA-RAIZ` se obtuvo mediante un clon completo de AlmaLinux, con una nueva
 direccion MAC, nombre propio e IP distinta. Una vez emitida la CA subordinada se
 apaga para reducir la exposicion de su clave privada.
+
+`SRV-WINDOWS` tambien se mantuvo encendido como DNS del laboratorio. Su funcion
+en esta practica fue resolver los nombres necesarios para que AlmaLinux pudiera
+consultar los repositorios e instalar paquetes como `mod_ssl`; no almaceno ni
+emitio certificados de la PKI.
 
 ## 1. Preparacion de la CA raiz
 
