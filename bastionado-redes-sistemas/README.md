@@ -12,6 +12,7 @@ infraestructuras de red y sistemas.
 | 2.2 | [Acceso mediante verificación de equipo cliente](02-02-verificacion-equipo-cliente.md) | Completada |
 | 2.3 | [Acceso mediante doble factor de autenticación](02-03-doble-factor-autenticacion.md) | Completada |
 | 3.1 | [Creación de una infraestructura de clave pública (PKI)](03-01-infraestructura-clave-publica.md) | Completada |
+| 3.2 | [Gestión de acceso mediante sistemas NAC](03-02-gestion-acceso-nac.md) | Completada |
 
 ## Escenario base
 
@@ -40,3 +41,5 @@ Para esta práctica:
 - [Evidencias de verificación de equipo cliente](evidencias/02-02-verificacion-equipo-cliente/)
 - [Evidencias de doble factor de autenticación](evidencias/02-03-doble-factor-autenticacion/)
 - [Evidencias de infraestructura de clave pública](evidencias/03-01-infraestructura-clave-publica/)
+- [Evidencias de NAC, RADIUS y TACACS+](evidencias/03-02-nac-radius-tacacs/)
+- [Archivo de Packet Tracer de la práctica 3.2](packet-tracer/03-02-nac-radius-tacacs/)
