@@ -14,6 +14,7 @@ infraestructuras de red y sistemas.
 | 3.1 | [Creación de una infraestructura de clave pública (PKI)](03-01-infraestructura-clave-publica.md) | Completada |
 | 3.2 | [Gestión de acceso mediante sistemas NAC](03-02-gestion-acceso-nac.md) | Completada |
 | 4.1 | [VLAN entre switches](04-01-vlan-entre-switches.md) | Completada |
+| 4.2 | [VLAN con ACL](04-02-vlan-con-acl.md) | Completada |
 
 ## Escenario base
 
@@ -46,3 +47,5 @@ Para esta práctica:
 - [Archivo de Packet Tracer de la práctica 3.2](packet-tracer/03-02-nac-radius-tacacs/)
 - [Evidencias de VLAN entre switches](evidencias/04-01-vlan-entre-switches/)
 - [Archivo de Packet Tracer de la práctica 4.1](packet-tracer/04-01-vlan-entre-switches/)
+- [Evidencias de VLAN con ACL](evidencias/04-02-vlan-con-acl/)
+- [Archivo de Packet Tracer de la práctica 4.2](packet-tracer/04-02-vlan-con-acl/)
