@@ -7,7 +7,7 @@ infraestructuras de red y sistemas.
 
 | Nº | Práctica | Estado |
 | --- | --- | --- |
-| 01 | [Construcción de una infraestructura segmentada](01-construccion-infraestructura-segmentada.md) | Completada |
+| 1.0 | [Construcción de una infraestructura segmentada](01-construccion-infraestructura-segmentada.md) | Completada |
 | 2.1 | [Accesos con protección mediante frase de paso](02-01-accesos-frase-paso.md) | Completada |
 | 2.2 | [Acceso mediante verificación de equipo cliente](02-02-verificacion-equipo-cliente.md) | Completada |
 | 2.3 | [Acceso mediante doble factor de autenticación](02-03-doble-factor-autenticacion.md) | Completada |
