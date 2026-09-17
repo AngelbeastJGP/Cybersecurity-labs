@@ -15,6 +15,7 @@ infraestructuras de red y sistemas.
 | 3.2 | [Gestión de acceso mediante sistemas NAC](03-02-gestion-acceso-nac.md) | Completada |
 | 4.1 | [VLAN entre switches](04-01-vlan-entre-switches.md) | Completada |
 | 4.2 | [VLAN con ACL](04-02-vlan-con-acl.md) | Completada |
+| 5.1 | [Instalacion y configuracion de un WAF](05-01-instalacion-configuracion-waf.md) | Completada |
 
 ## Escenario base
 
@@ -49,3 +50,4 @@ Para esta práctica:
 - [Archivo de Packet Tracer de la práctica 4.1](packet-tracer/04-01-vlan-entre-switches/)
 - [Evidencias de VLAN con ACL](evidencias/04-02-vlan-con-acl/)
 - [Archivo de Packet Tracer de la práctica 4.2](packet-tracer/04-02-vlan-con-acl/)
+- [Evidencias de instalacion y configuracion de un WAF](evidencias/05-01-waf/)

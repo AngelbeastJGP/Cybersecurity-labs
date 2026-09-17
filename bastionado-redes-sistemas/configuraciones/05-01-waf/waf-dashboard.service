@@ -1,0 +1,7 @@
+[Unit]
+Description=Actualizar el visor grafico de incidencias WAF
+After=httpd.service
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/bash /usr/local/sbin/update-waf-dashboard.sh
