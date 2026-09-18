@@ -16,6 +16,7 @@ infraestructuras de red y sistemas.
 | 4.1 | [VLAN entre switches](04-01-vlan-entre-switches.md) | Completada |
 | 4.2 | [VLAN con ACL](04-02-vlan-con-acl.md) | Completada |
 | 5.1 | [Instalacion y configuracion de un WAF](05-01-instalacion-configuracion-waf.md) | Completada |
+| 5.2 | [Instalacion y configuracion de un servidor de correo seguro](05-02-servidor-correo-seguro.md) | Completada |
 
 ## Escenario base
 
@@ -51,3 +52,4 @@ Para esta práctica:
 - [Evidencias de VLAN con ACL](evidencias/04-02-vlan-con-acl/)
 - [Archivo de Packet Tracer de la práctica 4.2](packet-tracer/04-02-vlan-con-acl/)
 - [Evidencias de instalacion y configuracion de un WAF](evidencias/05-01-waf/)
+- [Evidencias del servidor de correo seguro](evidencias/05-02-correo-seguro/)

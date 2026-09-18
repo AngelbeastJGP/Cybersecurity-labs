@@ -1,0 +1,12 @@
+[server_cert]
+basicConstraints = critical, CA:false
+subjectKeyIdentifier = hash
+authorityKeyIdentifier = keyid,issuer
+keyUsage = critical, digitalSignature, keyEncipherment
+extendedKeyUsage = serverAuth
+subjectAltName = @alt_names
+
+[alt_names]
+DNS.1 = mail.garea.local
+DNS.2 = srv-alma.garea.local
+IP.1 = 10.0.0.20

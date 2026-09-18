@@ -1,0 +1,2 @@
+# Compilar con: postmap /etc/postfix/client_access
+203.0.113.66 REJECT IP no confiable bloqueada

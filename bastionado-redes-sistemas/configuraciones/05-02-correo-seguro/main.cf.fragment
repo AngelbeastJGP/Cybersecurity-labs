@@ -1,0 +1,35 @@
+# Identidad y entrega local
+myhostname = mail.garea.local
+mydomain = garea.local
+myorigin = $mydomain
+inet_interfaces = all
+inet_protocols = ipv4
+mydestination = $myhostname, localhost.$mydomain, localhost, $mydomain
+mynetworks = 127.0.0.0/8
+home_mailbox = Maildir/
+
+# TLS obligatorio en el laboratorio
+smtpd_tls_cert_file = /etc/pki/tls/certs/mail.garea.local-fullchain.pem
+smtpd_tls_key_file = /etc/pki/tls/private/mail.garea.local.key.pem
+smtpd_tls_security_level = encrypt
+smtpd_tls_auth_only = yes
+smtpd_tls_loglevel = 1
+
+# Autenticacion SASL mediante Dovecot
+smtpd_sasl_type = dovecot
+smtpd_sasl_path = private/auth
+smtpd_sasl_auth_enable = yes
+smtpd_sasl_security_options = noanonymous, noplaintext
+smtpd_sasl_tls_security_options = noanonymous
+
+# Control de relay y acceso
+smtpd_relay_restrictions = permit_mynetworks, permit_sasl_authenticated, reject_unauth_destination
+smtpd_client_restrictions = check_client_access hash:/etc/postfix/client_access
+smtpd_sender_restrictions = check_sender_access hash:/etc/postfix/sender_access, reject_non_fqdn_sender
+smtpd_recipient_restrictions = permit_mynetworks, permit_sasl_authenticated, reject_unauth_destination, reject_rbl_client zen.spamhaus.org, reject_rbl_client bl.spamcop.net, check_policy_service unix:private/policyd-spf, permit
+
+# Antivirus
+smtpd_milters = inet:127.0.0.1:7357
+non_smtpd_milters = $smtpd_milters
+milter_protocol = 6
+milter_default_action = tempfail

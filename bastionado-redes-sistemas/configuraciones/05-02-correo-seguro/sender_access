@@ -1,0 +1,2 @@
+# Compilar con: postmap /etc/postfix/sender_access
+bloqueado@ejemplo.invalid REJECT Cuenta de correo bloqueada

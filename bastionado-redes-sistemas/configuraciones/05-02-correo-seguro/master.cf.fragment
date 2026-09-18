@@ -1,0 +1,11 @@
+# Servicio Submission: STARTTLS y autenticacion obligatorios.
+submission inet n       -       n       -       -       smtpd
+  -o syslog_name=postfix/submission
+  -o smtpd_tls_security_level=encrypt
+  -o smtpd_sasl_auth_enable=yes
+  -o smtpd_relay_restrictions=permit_sasl_authenticated,reject
+  -o smtpd_recipient_restrictions=permit_sasl_authenticated,reject
+
+# Servicio de politica SPF.
+policyd-spf unix -       n       n       -       0       spawn
+  user=nobody argv=/usr/libexec/postfix/policyd-spf

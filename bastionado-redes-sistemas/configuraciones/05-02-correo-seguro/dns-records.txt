@@ -1,0 +1,5 @@
+Zona: garea.local
+
+A     mail.garea.local    10.0.0.20
+MX    garea.local         10 mail.garea.local
+TXT   garea.local         "v=spf1 ip4:10.0.0.20 -all"
