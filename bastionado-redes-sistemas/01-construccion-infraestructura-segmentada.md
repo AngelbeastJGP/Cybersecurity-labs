@@ -26,19 +26,10 @@ trabajo realizado en laboratorio.
 
 ## Topología
 
-```text
-                         Salida exterior / NAT
-                                  |
-                            R-DEBIAN
-                     Router, NAT, DHCP y firewall
-                         /                  \
-                        /                    \
-    Red clientes 200.0.100.0/24        Red servidores 10.0.0.0/24
-              Clientes                             Servidores
-          /      |       \                    /          \
-       PC0      PC1      PC2           SRV-WINDOWS     SRV-ALMA
-     Windows  Windows  Debian          AD DS + DNS     LDAP/SSH/HTTP/Webmin
-```
+![Topología de la infraestructura segmentada: router Debian, red de servidores y red de clientes](diagramas/01-infraestructura-segmentada.png)
+
+El diagrama es una representación ilustrativa de la topología verificada; las
+capturas originales de configuración se conservan en las evidencias.
 
 ## Direccionamiento
 

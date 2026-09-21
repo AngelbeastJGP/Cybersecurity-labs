@@ -9,11 +9,7 @@ certificado final para el servicio HTTPS de Apache.
 El cliente `PC2` instala como confiable el certificado publico de la CA raiz y
 valida el servicio completo:
 
-```text
-Garea Root CA
-└── Garea Subordinate CA
-    └── Certificado HTTPS de srv-alma.garea.local (10.0.0.20)
-```
+![Jerarquía PKI: CA raíz, CA subordinada y certificado HTTPS validado por PC2](diagramas/03-01-jerarquia-pki.png)
 
 ## Objetivos
 

@@ -12,18 +12,7 @@ la CA subordinada y el usuario de Windows lo hace mediante EAP-MSCHAPv2. Las
 pruebas finales incluyen establecimiento de asociaciones de seguridad,
 contadores de trafico, asignacion de IP, ICMP, conexion TCP y respuesta HTTP.
 
-```text
-Sede B                                             Sede A
-PC-SEDE-B 10.20.0.10                              SRV-ALMA 10.0.0.20
-       |                                                   |
-Router B 10.20.0.1/24 -- IPsec IKEv2/PSK -- Router A 10.0.0.1/24
-         172.16.50.2                 172.16.50.1
-                                        |
-                                  IKEv2/certificado + EAP
-                                        |
-                              WIN-VPN 172.16.50.100
-                              IP virtual 10.30.0.10
-```
+![Topología IPsec: túnel IKEv2 entre sedes y acceso remoto de Windows al router de la sede A](diagramas/05-03-topologia-ipsec.png)
 
 ## Objetivos y escenario
 

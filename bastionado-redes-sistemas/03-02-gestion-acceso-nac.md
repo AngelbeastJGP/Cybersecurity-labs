@@ -34,6 +34,8 @@ SHA-256 del archivo documentado:
 
 ## Topologia
 
+![Topología del laboratorio AAA con routers RADIUS y TACACS+, punto de acceso y clientes Wi-Fi](diagramas/03-02-aaa-wifi.png)
+
 | Equipo | Tipo | Direccion | Funcion |
 | --- | --- | --- | --- |
 | R-RADIUS | Router 2811 | `192.168.1.1/24` | Administracion autenticada con RADIUS |

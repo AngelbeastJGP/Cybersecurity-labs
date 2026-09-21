@@ -13,16 +13,7 @@ demuestran tanto el funcionamiento legitimo como el rechazo controlado de
 remitentes bloqueados, identidades SPF no autorizadas y el archivo de prueba
 EICAR.
 
-```text
-PC2 (cliente)
-  |-- SMTP Submission 587 + STARTTLS + AUTH --> Postfix
-  |-- IMAPS 993 / POP3S 995 -----------------> Dovecot
-                                                   |
-Internet simulado --> DNSBL + SPF --> Postfix --> ClamAV milter
-                                                   |
-                                                   v
-                                              Maildir local
-```
+![Arquitectura de correo del laboratorio: PC2, DNS, Postfix, filtros, Maildir y Dovecot](diagramas/05-02-arquitectura-correo.png)
 
 ## Objetivos
 

@@ -11,19 +11,7 @@ Las incidencias se conservan en el registro de auditoria de ModSecurity y se
 presentan en un panel HTML generado con GoAccess. Un temporizador de systemd
 actualiza el panel automaticamente cada minuto.
 
-```text
-Cliente HTTP
-    |
-    v
-Apache 2.4 + ModSecurity + OWASP CRS
-    |                  |
-    | permitida        | bloqueada (HTTP 403)
-    v                  v
-Sitio web        Registros de Apache y ModSecurity
-                           |
-                           v
-                  Panel HTML de GoAccess
-```
+![Flujo del WAF: peticiones permitidas, bloqueos y generación del panel GoAccess desde el registro de Apache](diagramas/05-01-flujo-waf.png)
 
 ## Objetivos
 

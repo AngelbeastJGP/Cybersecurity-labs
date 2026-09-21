@@ -7,12 +7,7 @@ Esta practica crea tres VLAN en dos switches Cisco y utiliza un enlace troncal
 misma VLAN pueden comunicarse aunque esten conectados a switches diferentes,
 mientras que los equipos de VLAN distintas permanecen aislados.
 
-```text
-VLAN 2: PC0 en SW0 <----------> PC3 en SW1
-VLAN 3: PC1 en SW0 <----------> PC4 en SW1
-VLAN 4: PC2 en SW0 <----------> PC5 en SW1
-                  enlace troncal
-```
+![Tres VLAN compartidas por SW0 y SW1 mediante un enlace troncal 802.1Q](diagramas/04-01-vlan-troncal.png)
 
 No se configura enrutamiento inter-VLAN. Por tanto, las tres VLAN se comportan
 como tres dominios de broadcast independientes.

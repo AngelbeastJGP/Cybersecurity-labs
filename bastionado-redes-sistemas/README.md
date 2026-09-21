@@ -21,6 +21,8 @@ infraestructuras de red y sistemas.
 
 ## Escenario base
 
+![Topología base del laboratorio: router Debian, red de servidores y red de clientes](diagramas/01-infraestructura-segmentada.png)
+
 La primera práctica construye una infraestructura con:
 
 - Red de clientes: `200.0.100.0/24`

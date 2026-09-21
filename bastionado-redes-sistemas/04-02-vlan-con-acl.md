@@ -8,13 +8,7 @@ inicialmente el encaminamiento entre las VLAN 2, 3 y 4 y una red independiente
 de servidores. Despues se aplican ACL para impedir que las redes de clientes se
 comuniquen entre ellas, manteniendo el acceso a los servicios comunes.
 
-```text
-VLAN 2 --\
-VLAN 3 ---- SW-CLIENTES ==== R-ACL ---- SW-SERVIDORES ---- FTP, DNS y web
-VLAN 4 --/        trunk       | Fa0/1          192.168.5.0/24
-                              |
-                       subinterfaces 802.1Q
-```
+![VLAN de clientes conectadas por troncal a R-ACL y red separada de servidores](diagramas/04-02-vlan-acl.png)
 
 ## Archivo de Packet Tracer
 
