@@ -17,6 +17,7 @@ infraestructuras de red y sistemas.
 | 4.2 | [VLAN con ACL](04-02-vlan-con-acl.md) | Completada |
 | 5.1 | [Instalacion y configuracion de un WAF](05-01-instalacion-configuracion-waf.md) | Completada |
 | 5.2 | [Instalacion y configuracion de un servidor de correo seguro](05-02-servidor-correo-seguro.md) | Completada |
+| 5.3 | [IPsec de sitio a sitio y acceso VPN de cliente](05-03-ipsec-sitio-sitio-cliente-servidor.md) | Completada |
 
 ## Escenario base
 
@@ -53,3 +54,4 @@ Para esta práctica:
 - [Archivo de Packet Tracer de la práctica 4.2](packet-tracer/04-02-vlan-con-acl/)
 - [Evidencias de instalacion y configuracion de un WAF](evidencias/05-01-waf/)
 - [Evidencias del servidor de correo seguro](evidencias/05-02-correo-seguro/)
+- [Evidencias de IPsec entre sedes y VPN de cliente](evidencias/05-03-ipsec-vpn/)
