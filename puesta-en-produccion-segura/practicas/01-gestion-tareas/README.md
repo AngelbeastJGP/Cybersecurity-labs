@@ -21,7 +21,34 @@ y eliminar tareas. Cada tarea tendrá título, descripción y estado.
 - MongoDB para almacenar las tareas.
 - Jest para pruebas unitarias.
 - Selenium para pruebas de interfaz.
-- Jenkins o GitLab CI/CD para automatizar comprobaciones.
+- Jenkins para automatizar comprobaciones. Es una de las dos alternativas que
+  permite la actividad.
+
+No se sustituirá ninguna de estas tecnologías. Ubuntu Server se utilizará
+únicamente como entorno de ejecución dentro de una máquina virtual.
+
+## Entorno que se preparará
+
+### En la máquina virtual
+
+- Ubuntu Server 24.04.4 LTS.
+- Git, curl, certificados y GnuPG.
+- Node.js 24 LTS y npm.
+- MongoDB Community Server 8.0.
+- OpenJDK 21.
+- Jenkins LTS.
+- Navegador para las pruebas automatizadas con Selenium.
+
+### Dependencias del proyecto
+
+- React y React DOM.
+- Express.
+- Controlador oficial de MongoDB para Node.js.
+- Jest.
+- Selenium WebDriver.
+
+Las versiones exactas de las dependencias del proyecto quedarán registradas en
+`package.json` y en el archivo de bloqueo cuando comience la implementación.
 
 ## Método de trabajo
 
