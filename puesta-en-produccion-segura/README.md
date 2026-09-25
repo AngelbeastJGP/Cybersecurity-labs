@@ -12,7 +12,7 @@ aplicaciones de forma reproducible y segura.
 
 | Actividad | Práctica | Estado |
 | --- | --- | --- |
-| 1.13 | Aplicación web de gestión de tareas y pruebas automatizadas | Pendiente |
+| 1.13 | [Aplicación web de gestión de tareas y pruebas automatizadas](practicas/01-gestion-tareas/) | En preparación |
 
 Las actividades exclusivamente teóricas permanecen en los apuntes de Obsidian.
 Aquí se publicarán las prácticas que generen código, configuraciones, comandos,
