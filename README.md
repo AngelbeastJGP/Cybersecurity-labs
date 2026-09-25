@@ -14,6 +14,7 @@ resultado final.
 | Área | Descripción |
 | --- | --- |
 | [Bastionado de redes y sistemas](bastionado-redes-sistemas/) | Infraestructuras virtuales, segmentación, servicios internos, control de accesos y preparación para hardening. |
+| [Puesta en producción segura](puesta-en-produccion-segura/) | Desarrollo, pruebas, automatización CI/CD y despliegue seguro de aplicaciones. |
 | [Lab setup](lab-setup/) | Notas de preparación de entornos de laboratorio. |
 
 ## Buenas prácticas de publicación
